@@ -6,15 +6,15 @@ Replace the MONGO_URI in `backend/.env` with your MongoDB Atlas connection strin
 
 ```
 PORT=5000
-MONGO_URI=mongodb+srv://minor_project:12345@cluster0.w8ce3ev.mongodb.net/dual-server-iot?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://<db_username>:<db_password>@cluster0.w8ce3ev.mongodb.net/dual-server-iot?retryWrites=true&w=majority
 HONEY_MAX=10
 ```
 
 **Important:** 
-- Replace `<db_username>` with: `minor_project`
-- Replace `<db_password>` with: `12345`
+- Replace `<db_username>` with your MongoDB Atlas username
+- Replace `<db_password>` with your MongoDB Atlas password
 - Add database name: `/dual-server-iot` before the query parameters
-- The connection string should NOT have angle brackets `< >`
+- The connection string should NOT have angle brackets `< >` in the final version
 
 ## Steps:
 

@@ -1,0 +1,36 @@
+{
+  "name": "dual-server-iot-backend",
+  "version": "1.0.0",
+  "description": "Dual-server password-authenticated key agreement backend for IoT devices in 5G.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "echo \"No linter configured\""
+  },
+  "keywords": [
+    "5g",
+    "iot",
+    "aka",
+    "paillier",
+    "ecc"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bigint-buffer": "^1.1.5",
+    "bn.js": "^5.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "elliptic": "^6.6.1",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0",
+    "morgan": "^1.10.1",
+    "nanoid": "^5.1.6",
+    "paillier-bigint": "^3.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
